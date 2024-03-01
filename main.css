@@ -14,7 +14,7 @@ body{
     max-width: 1024px;
 }
 
-header .container, footer {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,11 +29,10 @@ header {
 }
 
 footer {
-    background-color: rgb(33, 162, 248);
     color: #fff;
-    display: flex;
     padding: 1rem;
     text-align: center;
+    margin: 0;
    }
 
 .container h1 {
@@ -69,9 +68,9 @@ footer {
    }
    
    .sobre-img img {
-    width: 120%;
+    width: 100%;
     border: none;
-    max-width: 200%;
+    max-width: 100%;
    }
    
    .sobre-texto {
@@ -141,6 +140,7 @@ footer {
 .produto img {
     max-width: 100%;
     width: 100%;
+    height: 60%;
 }
 
 .produto h3 {
@@ -227,7 +227,7 @@ footer {
 
     .container {
         max-width: 100%;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .produto a {
@@ -278,6 +278,12 @@ footer {
         margin: 2em;
         display: flex;
     }
+
+   header .container{
+    margin: 1em;
+   }
+
+    
 
     .sobre-loja {
         display: block;
